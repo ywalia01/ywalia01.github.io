@@ -50,7 +50,7 @@ html {
 header {
     width: 92vw;
     padding: 6vh 4vw;
-    position: fixed;
+    position: absolute;
     font-weight: bold;
     background: transparent;
     color: #fff;
@@ -60,9 +60,9 @@ header {
 header table {
     width: 100%;
 }
-#logo {
+/* #logo {
     width: 20%;
-}
+} */
 #navigation {
     width: 80%;
 }
@@ -95,10 +95,10 @@ header table {
     background-repeat: no-repeat !important;
     margin: 0px auto;
 }
-#logo {
+/* #logo {
     font-size: 24px;
     color: rgb(255, 44, 90);
-}
+} */
 #navigation {
     text-align: right;
 }
