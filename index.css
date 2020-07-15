@@ -211,6 +211,32 @@ header table {
     border-bottom: 4px solid rgb(14, 230, 16);
     width: 8%;
 }
+#skills {
+    width: 92vw;
+    padding: 6vh 4vw;
+    font-weight: bold;
+}
+#skills h1 {
+    padding: 5px 0px;
+    border-bottom: 4px solid rgb(14, 230, 16);
+    width: 8%;
+}
+#skills ul {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 800px;
+}
+#skills li {
+    display: inline-block;
+    margin: 7px;
+    padding: 5px 10px;
+    color: #374054;
+    background: #e4e4ea;
+    list-style: none;
+    cursor: default;
+    font-size: 1.2em;
+}
 #contact {
     width: 92vw;
     padding: 6vh 4vw;
