@@ -19,16 +19,23 @@
     <div id="loading">
         <div id="spinner"></div>
     </div>
-    <div id="header" class="animated slideInDown" style="animation-delay: 1.8s;">
-        <div id="title">yash walia</div>
-        <br />
-        <div id="links">
-            <a href="#work">work</a>
-            <a href="#about" style="margin: 0px 60px; margin-right: 30px">about</a>
-            <a href="#skills" style="margin: 0px 60px; margin-left: 30px">skills</a>
-            <a href="#contact">contact</a>
-        </div>
+    <div id="magnify">
+        <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1>
+        <div id="img_here"></div>
     </div>
+    <header id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+        <table>
+            <tr>
+                <td id="logo">yash walia</td>
+                <td id="navigation">
+                    <a href="#work">work</a>
+                    <a href="#bio">about</a>
+                    <a href="">blog</a>
+                    <a href="#contact">contact</a>
+                </td>
+            </tr>
+        </table>
+    </header>
 
     <center>
         <div id="middle">
@@ -61,7 +68,7 @@
             </div>
 
             <div class="project">
-                <h2>project title 1</h2>
+                <h2>YelpCamp</h2>
                 <div>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     In bibendum tincidunt nulla, id semper mi cursus ac.
@@ -70,6 +77,7 @@
                     eu pretium risus. Curabitur porta molestie vulputate.
                 </div>
                 <button class="btn_one">visit project</button>
+                <button class="btn_two">code</button>
             </div>
 
             <div class="project">
@@ -114,6 +122,7 @@
                     ullamcorper ante vel ullamcorper mollis. Interdum et
                     malesuada fames ac ante ipsum primis in faucibus.
                 </p>
+                <button class="btn_one">Resume    <i class="fas fa-download"></i></button>
             </div>
         </div>
 
@@ -121,16 +130,16 @@
             <h1>skills</h1>
             <div>
                 <ul>
-                    <li>JavaScript</li>
-                    <li>Python</li>
-                    <li>Node.js</li>
-                    <li>AngularJs</li>
-                    <li>React</li>
-                    <li>Elixir</li>
-                    <li>Java</li>
-                    <li>C</li>
-                    <li>C#</li>
-                    <li>C++</li>
+                    <button class="btn_one">JavaScript</button>
+                    <button class="btn_one">Python</button>
+                    <button class="btn_one">C++</button>
+                    <button class="btn_one">Node.js</button>
+                    <button class="btn_one">Java</button>
+                    <button class="btn_one">AngularJs</button>
+                    <button class="btn_one">React</button>
+                    <button class="btn_one">Elixir</button>
+                    <button class="btn_one">C</button>
+                    <button class="btn_one">C#</button>
                 </ul>
             </div>
         </div>
