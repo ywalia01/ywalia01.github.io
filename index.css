@@ -321,7 +321,7 @@ header table {
     background: #fff;
     cursor: pointer;
 }
-@media (max-width: 900px) {
+@media (max-width: 768px) {
     /* #header {
         width: 94%;
         padding: 15% 3%;
