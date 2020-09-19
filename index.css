@@ -158,7 +158,7 @@ header table {
     width: 100%;
     height: 80vh;
     background: linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
-        url("img1.jpg") center center fixed;
+        url("./pics/img1.jpg") center center fixed;
     background-size: 100% auto;
     background-repeat: no-repeat;
     color: white;
