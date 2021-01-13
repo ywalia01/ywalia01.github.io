@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script
             async
@@ -15,6 +16,8 @@
 
             gtag("config", "UA-177662053-1");
         </script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -102,8 +105,8 @@
                 <tr>
                     <td id="title">Yash Walia</td>
                     <td id="navigation">
-                        <a href="#work">Work</a>
                         <a href="#about">About</a>
+                        <a href="#work">Work</a>
                         <a href="blog.html">Blog</a>
                         <a href="#contact">Contact</a>
                     </td>
@@ -130,25 +133,25 @@
                             class="btn_social"
                             href="https://www.linkedin.com/in/yash-walia"
                             target="blank"
-                            ><i class="fab fa-lg fa-linkedin"></i
+                            ><i class="fab fa-2x fa-linkedin"></i
                         ></a>
                         <a
                             class="btn_social"
                             href="https://github.com/ywalia01"
                             target="blank"
-                            ><i class="fab fa-lg fa-github"></i
+                            ><i class="fab fa-2x fa-github"></i
                         ></a>
                         <a
                             class="btn_social"
                             target="blank"
-                            href="https://medium.com/@yashbest005"
-                            ><i class="fab fa-lg fa-medium"></i
+                            href="https://www.instagram.com/notyashwalia/"
+                            ><i class="fab fa-2x fa-instagram"></i
                         ></a>
                         <a
                             class="btn_social"
                             target="blank"
-                            href="https://dribbble.com/ywalia01"
-                            ><i class="fab fa-lg fa-dribbble"></i
+                            href="https://twitter.com/ywalia01"
+                            ><i class="fab fa-2x fa-twitter"></i
                         ></a>
                     </div>
                 </div>
@@ -156,10 +159,28 @@
         </center>
 
         <div id="portfolio">
+
+            <div id="about">
+                <h1>About</h1>
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        In bibendum tincidunt nulla, id semper mi cursus ac.
+                        Fusce turpis urna, condimentum sit amet dolor at,
+                        vulputate ultrices massa. Vestibulum non euismod nulla,
+                        eu pretium risus. Curabitur porta molestie vulputate.
+                    </p>
+                    <button class="btn_one"
+                        onclick="window.location = 'https://drive.google.com/file/d/10jtMJgDBgx663KsJk9KOeLks9jSwG4kU/view?usp=sharing', '_blank'">
+                        Resume <i class="fas fa-download"></i>
+                    </button>
+                </div>
+            </div>
+
             <div id="work">
                 <h1>Work</h1>
 
-                <div id="photos">
+                <!-- <div id="photos">
                     <img
                         onclick="magnify($(this).attr('src'))"
                         src="./pics/vocl1.png"
@@ -208,13 +229,26 @@
                         onclick="magnify($(this).attr('src'))"
                         src="./pics/todo4.png"
                     />
+                </div> -->
+
+                <div class="project">
+                    <h2>iHeard</h2>
+                    <div>
+                        A web app designed for the hard of hearing
+                    </div>
+                    <button class="btn_one" onclick="window.location = 'https://iheard.tech/', '_blank'">
+                        Visit Project
+                    </button>
+                    <button class="btn_two" onclick="window.location = 'https://github.com/ywalia01/iheard/', '_blank'">
+                        Code
+                    </button>
                 </div>
 
                 <div class="project">
                     <h2>VOCL Podcast Website</h2>
                     <div>
                         This is the landing page for a podcast that me and my
-                        friends started in August 2020.
+                        friends started in August 2020
                     </div>
                     <button
                         class="btn_one"
@@ -289,35 +323,16 @@
                 </div>
             </div>
 
-            <div id="about">
-                <h1>About</h1>
-                <div>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        In bibendum tincidunt nulla, id semper mi cursus ac.
-                        Fusce turpis urna, condimentum sit amet dolor at,
-                        vulputate ultrices massa. Vestibulum non euismod nulla,
-                        eu pretium risus. Curabitur porta molestie vulputate.
-                    </p>
-                    <button
-                        class="btn_one"
-                        onclick="window.location = 'https://drive.google.com/file/d/1Mz4o3k9CbP5C1jdbWRE3eiqFP7Btd8nF/view', '_blank'"
-                    >
-                        Resume <i class="fas fa-download"></i>
-                    </button>
-                </div>
-            </div>
-
             <div id="skills">
                 <h1>Skills</h1>
                 <div>
                     <ul>
                         <button class="btn_one">Python</button>
-                        <button class="btn_one">C++</button>
                         <button class="btn_one">JavaScript</button>
+                        <button class="btn_one">C++</button>
                         <button class="btn_one">MongoDB</button>
                         <button class="btn_one">Express.js</button>
-                        <button class="btn_one">React</button>
+                        <button class="btn_one">Reactjs</button>
                         <button class="btn_one">Node.js</button>
                         <button class="btn_one">Django</button>
                         <button class="btn_one">Flask</button>
@@ -330,34 +345,34 @@
                 <script type="text/javascript">
                     var submitted = false;
                 </script>
-                <iframe
+                <!-- <iframe
                     name="hidden_iframe"
                     id="hidden_iframe"
                     style="display: none"
                     onload="if(submitted) {window.location.assign='https://ywalia01.github.io/';}"
-                ></iframe>
-                <form
+                ></iframe> -->
+                <!-- <form
                     action="https://docs.google.com/forms/d/e/1FAIpQLSfiE-jubg6U0URZglToTBsSSbNv4szxNAK6L6U55AzPl_kLmA/formResponse"
                     method="POST"
                     target="”hidden_iframe”"
                     onsubmit="submitted=true;"
-                >
+                > -->
                     <!-- <label>Name*</label> -->
-                    <input
+                    <!-- <input
                         type="text"
                         placeholder="Name*"
                         name="entry.2005620554"
                         required
-                    />
+                    /> -->
                     <!-- <label>Email Address*</label> -->
-                    <input
+                    <!-- <input
                         type="email"
                         placeholder="Email address*"
                         name="entry.1045781291"
                         required
-                    /><br />
+                    /><br /> -->
                     <!-- <label>Message*</label> -->
-                    <textarea
+                    <!-- <textarea
                         placeholder="Message*"
                         name="entry.839337160"
                         required
@@ -365,7 +380,7 @@
                     ></textarea
                     ><br />
                     <button type="submit" class="btn_one">Send</button>
-                </form>
+                </form> -->
                 <div id="details">
                     <a
                         class="btn_social"
@@ -382,14 +397,14 @@
                     <a
                         class="btn_social"
                         target="blank"
-                        href="https://medium.com/@yashbest005"
-                        ><i class="fab fa-2x fa-medium"></i
+                        href="https://www.instagram.com/notyashwalia/"
+                        ><i class="fab fa-2x fa-instagram"></i
                     ></a>
                     <a
                         class="btn_social"
                         target="blank"
-                        href="https://dribbble.com/ywalia01"
-                        ><i class="fab fa-2x fa-dribbble"></i
+                        href="https://twitter.com/ywalia01"
+                        ><i class="fab fa-2x fa-twitter"></i
                     ></a>
                 </div>
             </div>
