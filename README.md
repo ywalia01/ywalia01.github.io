@@ -1,2 +1,2 @@
-# https://ywalia01.github.io/
-## Personal Portfolio Website
+# ywalia01.github.io
+Personal Portfolio Website
