@@ -324,12 +324,12 @@ header table {
     margin: 40px 20px;
     padding: 15px 18px;
     border-radius: 50%;
-    background: #000;
+    background: transparent;
     transition: 0.4s ease-in-out;
 }
 .btn_social:hover {
-    color: #000;
-    background: #fff;
+    color: #ff416c;
+    background: transparent;
     cursor: pointer;
 }
 @media (max-width: 768px) {

@@ -51,56 +51,11 @@
     </head>
 
     <body>
-        <div id="loading">
-            <!-- <div id="spinner"></div> -->
-            <svg
-                id="spinner"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-            >
-                <path
-                    d="M3.7 9.8c0-.7.1-1.4.3-2L1 6.6C.6 7.6.4 8.7.4 9.8S.6 12 1 13l3-1.3c-.1-.5-.3-1.2-.3-1.9z"
-                    fill="#2e323d"
-                />
-                <path
-                    d="M12.8 4.2C14 4.8 15 5.8 15.6 7l3-1.3c-.9-2-2.6-3.6-4.6-4.6l-1.2 3.1z"
-                    fill="#848f97"
-                />
-                <path
-                    d="M16.3 9.8c0 .7-.1 1.4-.3 2l3 1.3c.4-1 .6-2.1.6-3.2s-.3-2.3-.6-3.3l-3 1.3c.1.6.3 1.2.3 1.9z"
-                    fill="#919dad"
-                />
-                <path
-                    d="M8 3.9c.6-.2 1.3-.3 2-.3s1.4.1 2 .3l1.3-3c-1-.4-2.1-.6-3.2-.6S7.8.5 6.8.9l1.2 3z"
-                    fill="#686d79"
-                />
-                <path
-                    d="M12 15.8c-.6.2-1.3.3-2 .3s-1.4-.1-2-.3l-1.3 3c1 .4 2.1.6 3.2.6s2.2-.2 3.2-.6l-1.1-3z"
-                    fill="#b9bfc7"
-                />
-                <path
-                    d="M15.6 12.6c-.6 1.2-1.6 2.2-2.8 2.8l1.3 3c2-.9 3.6-2.6 4.6-4.6l-3.1-1.2z"
-                    fill="#a6abb9"
-                />
-                <path
-                    d="M4.4 7C5 5.8 6 4.8 7.2 4.2l-1.3-3c-2 .9-3.6 2.6-4.6 4.6L4.4 7z"
-                    fill="#444c51"
-                />
-                <path
-                    d="M3.2 13.1L.3 14.3c1.1 2.3 2.9 4.2 5.3 5.3l1.2-2.9c-1.6-.8-2.9-2.1-3.6-3.6z"
-                    fill="#ded2dc"
-                />
-            </svg>
-        </div>
-        <div id="magnify">
-            <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1>
-            <div id="img_here"></div>
-        </div>
-        <div id="climateclock">
+        <!-- <div id="climateclock">
             <script src="https://climateclock.world/widget-v2.js" async></script>
             <script src="https://climateclock.world/flatten.js" async></script>
             <climate-clock />
-        </div>
+        </div> -->
         <header
             id="header"
             class="animated slideInDown"
@@ -169,11 +124,15 @@
                 <h1>About</h1>
                 <div>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        In bibendum tincidunt nulla, id semper mi cursus ac.
-                        Fusce turpis urna, condimentum sit amet dolor at,
-                        vulputate ultrices massa. Vestibulum non euismod nulla,
-                        eu pretium risus. Curabitur porta molestie vulputate.
+                        I'm a 19 year-old student currently pursuing a bachelor's degree in Computer Science Engineering. 
+                        <br>
+                        I enjoy solving problems, writing and building products. I'm also passionate about communities and open-source. 
+                        <br>
+                        <br>
+                        I like to peek under the hood, tinker with technologies and learn new skills.
+                        <br>
+                        <br>
+                        I'm an avid reader and a  generally curious.
                     </p>
                     <button class="btn_one"
                         onclick="window.location = 'https://drive.google.com/file/d/1Os0kicadsBcXWvCnI7iHU-3OhP8DTZVP/view?usp=sharing', '_blank'">
@@ -198,7 +157,7 @@
                 <div class="project">
                     <h2>iHeard</h2>
                     <div>
-                        A web app designed for the hard of hearing
+                        A web app designed for the hard of hearing.
                         <br>
                         Machine Learning, Speech to text, Google Cloud API
                     </div>
@@ -206,6 +165,19 @@
                         Visit Project
                     </button>
                     <button class="btn_two" onclick="window.location = 'https://github.com/ywalia01/iheard/', '_blank'">
+                        Code
+                    </button>
+                </div>
+
+                <div class="project">
+                    <h2>The Dune API</h2>
+                    <div>
+                        A simple API which provides you with book, character, movie and quotes JSON data.
+                    </div>
+                    <button class="btn_one" onclick="window.location = 'https://github.com/ywalia01/dune-api', '_blank'">
+                        Visit Project
+                    </button>
+                    <button class="btn_two" onclick="window.location = 'https://github.com/ywalia01/dune-api', '_blank'">
                         Code
                     </button>
                 </div>
@@ -229,7 +201,7 @@
                     <h2>Breaking Bad React App</h2>
                     <div>
                         A React App that sends API requests and retrieves
-                        character information
+                        character information.
                     </div>
                     <button class="btn_one" onclick="window.location = 'https://ywalia01.github.io/breaking-bad-react/', '_blank'">
                         Visit Project
@@ -241,7 +213,7 @@
 
                 <div class="project">
                     <h2>TodoList React App</h2>
-                    <div>A simple TodoList App made using React</div>
+                    <div>A simple TodoList App made using React.</div>
                     <button class="btn_one" onclick="window.location = 'https://ywalia01.github.io/todolist-react', '_blank'">
                         Visit Project
                     </button>
@@ -253,7 +225,7 @@
                 <div class="project">
                     <h2>Yodish Converter</h2>
                     <div>
-                        A simple API interface for English to Yodish conversion
+                        A simple API interface for English to Yodish conversion.
                     </div>
                     <button class="btn_one" onclick="window.location = 'https://ywalia01.github.io/yodish/', '_blank'">
                         Visit Project
@@ -266,7 +238,7 @@
                 <div class="project">
                     <h2>CountDune</h2>
                     <div>
-                        A simple countdown timer for Dune 2021 written in Vanilla JS
+                        A simple countdown timer for Dune 2021 written in Vanilla JS.
                     </div>
                     <button class="btn_one" onclick="window.location = 'https://ywalia01.github.io/countdune/', '_blank'">
                         Visit Project
@@ -279,7 +251,7 @@
                 <div class="project">
                     <h2>VOCL Website</h2>
                     <div>
-                        Landing page for the VOCL podcast
+                        Landing page for the VOCL podcast.
                     </div>
                     <button
                         class="btn_one"
