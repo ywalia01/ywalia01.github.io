@@ -116,7 +116,7 @@ h1,
 .social-links li a:hover {
     color: #44f1a6;
 }
-#about div{
+#about div {
     padding-top: 10px;
     padding-left: 4%;
 }
@@ -164,11 +164,11 @@ p {
 .work-grid i:hover {
     color: var(--first-color);
 }
-.work-grid > div > h2{
-    margin-bottom: 10px; 
+.work-grid > div > h2 {
+    margin-bottom: 10px;
 }
-.work-grid > div > p{
-    margin: 14px 0 20px 0; 
+.work-grid > div > p {
+    margin: 14px 0 20px 0;
 }
 .work-grid > div > div {
     padding-left: 0;
@@ -176,7 +176,7 @@ p {
     flex-direction: row;
     justify-content: left;
 }
-#contact div{
+#contact div {
     padding: 0 5% 0 5%;
 }
 footer {
@@ -190,8 +190,6 @@ footer {
 }
 footer p {
     text-align: center;
-    width: 40vw;
-    margin: auto;
     align-self: center;
 }
 
