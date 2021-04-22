@@ -41,12 +41,12 @@ nav ul {
 nav ul li {
     list-style-type: none;
     display: inline-block;
-    color: white;
+    color: var(--second-color);
     margin: 10px;
 }
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: var(--second-color);
 }
 nav ul li a:hover {
     color: var(--first-color);
@@ -55,6 +55,9 @@ nav ul li a:hover {
     width: 30px;
     cursor: pointer;
     display: none;
+}
+nav #hidden {
+    display: flex;
 }
 .container {
     display: flex;
@@ -73,6 +76,10 @@ section {
 }
 .landing div:nth-child(1) {
     min-width: 250px;
+}
+.landing h4 a {
+    text-decoration: none;
+    color: var(--first-color);
 }
 .landing div:nth-child(2) {
     display: flex;
@@ -231,7 +238,11 @@ footer p {
         display: block;
         margin-left: auto;
     }
-    #nav-menu {
+    .nav-menu {
+        display: none;
+    }
+    #hidden {
+        max-height: 190px;
         overflow: hidden;
         transition: 0.3s;
     }
