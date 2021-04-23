@@ -1,5 +1,5 @@
 export const FULL_NAME = 'Yash Walia'
-export const RESUME_LINK = 'https://drive.google.com/file/d/1Os0kicadsBcXWvCnI7iHU-3OhP8DTZVP/view?usp=sharing'
+export const RESUME_LINK = 'https://drive.google.com/file/d/1DjRJCnkOuMAP7Edoggn3gYkMhac-7wZ-/view?usp=sharing'
 
 export const SOCIAL_LINKS = [
     {
