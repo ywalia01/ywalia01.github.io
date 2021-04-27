@@ -1,0 +1,39 @@
+/* ************************************************** */
+/* Work Section Styling */
+/* ************************************************** */
+.work-grid {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 100%;
+    padding-left: 4%;
+}
+.work-grid > div {
+    margin: 28px 0px 28px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.work-grid i {
+    color: var(--second-color);
+    margin-right: 25px;
+}
+.work-grid i:hover {
+    color: var(--first-color);
+}
+.work-grid > div > h2 {
+    margin-bottom: 10px;
+}
+.work-grid div #desc1 {
+    margin: 14px 0 7px 0;
+    color: var(--second-color);
+}
+.work-grid div #desc2 {
+    margin: 7px 0 20px 0;
+    color: var(--second-color);
+}
+.work-grid > div > div {
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}

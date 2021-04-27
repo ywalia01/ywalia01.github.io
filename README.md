@@ -20,7 +20,7 @@ please feel free to do so. I will list down the steps for the same.
 
 1. Fork the repository in your GitHub account. This will make a copy of my repository and you will be able to edit it.
 
-2. You can change the color scheme to your own liking by simply changing the values of the color variables at the beginning of [App.css](src/components/css/App.css).
+2. You can change the color scheme to your own liking by simply changing the values of the color variables at the beginning of [App.css](src/components//App.css).
 
 3. Edit the variables and logos to suit your needs in [data.js](src/data.js) according to your profile.
 

@@ -1,9 +1,9 @@
-import './components/css/App.css';
-import './components/css/fontawesome-free-5.15.3-web/css/all.min.css'
-import Header from './components/ui/Header';
-import Container from './components/ui/Container';
-import Footer from './components/ui/Footer';
-import ScrollButton from './components/ui/ScrollButton';
+import React from "react";
+import './App.css';
+import Header from './components//Header/Header';
+import Container from './components//Container/Container';
+import Footer from './components/Footer/Footer';
+import ScrollButton from './components/ScrollButton/ScrollButton';
 
 function App() {
   return (

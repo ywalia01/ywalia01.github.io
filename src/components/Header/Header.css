@@ -1,0 +1,37 @@
+/* ************************************************** */
+/* Header Styling */
+/* ************************************************** */
+header {
+    position: sticky;
+    background: transparent;
+    width: 50vw;
+    margin: 40px auto 60px auto;
+    top: 0;
+    left: 0;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    color: var(--second-color);
+    margin: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: var(--second-color);
+}
+nav ul li a:hover {
+    color: var(--first-color);
+}
+.menu-icon {
+    width: 30px;
+    cursor: pointer;
+    display: none;
+}
+nav #hidden {
+    display: flex;
+}

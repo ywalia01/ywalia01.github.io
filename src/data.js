@@ -72,7 +72,7 @@ export const SKILLS = [
     },
     {
         'name': "Git",
-        'icon': "fab fa-lg fa-git-alt",
+        'icon': "fab fa-lg fa-git-square",
     },
     {
         'name': "Docker",

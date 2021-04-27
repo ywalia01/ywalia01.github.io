@@ -1,0 +1,11 @@
+footer {
+    background: transparent;
+    width: 50vw;
+    margin: 30px auto 60px auto;
+    align-items: center;
+}
+footer p {
+    color: var(--second-color);
+    text-align: center;
+    align-self: center;
+}
