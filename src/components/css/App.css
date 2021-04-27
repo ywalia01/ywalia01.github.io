@@ -143,23 +143,26 @@ h1,
     margin-bottom: 20px;
     color: var(--second-color);
 }
+/* ************************************************** */
+/* Skills Section Styling */
+/* ************************************************** */
 .skills-grid {
     margin-top: 30px;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     padding-left: 4%;
 }
-.skills-grid > div {
+.skills-grid div {
     display: flex;
     flex-direction: row;
     justify-content: left;
     align-items: center;
 }
-.skills-grid > div > h4 {
+.skills-grid div h4 {
     color: var(--second-color);
     margin: 15px 0px 15px 10px;
 }
-.skills-grid > div h4:hover {
+.skills-grid div h4:hover {
     color: var(--first-color);
     cursor: default;
 }
