@@ -1,0 +1,12 @@
+/* ************************************************** */
+/* About Section Styling */
+/* ************************************************** */
+#about div {
+    padding-top: 10px;
+    padding-left: 4%;
+}
+#about p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: var(--second-color);
+}

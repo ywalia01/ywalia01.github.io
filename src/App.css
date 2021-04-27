@@ -1,0 +1,123 @@
+:root {
+    --first-color: #44f1a6;
+    --second-color: #ffffff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "PT Mono", monospace;
+    color: var(--first-color);
+    background: #000000;
+    scroll-behavior: smooth;
+}
+.wrapper {
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 4%;
+    padding-right: 4%;
+    overflow: hidden;
+    background: linear-gradient(180deg, #181818, #000) fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+section {
+    width: 50vw;
+    padding: 10px 25px;
+    margin: 30px auto;
+}
+/* ************************************************** */
+/* Media Queries */
+/* ************************************************** */
+@media only screen and (max-width: 1400px) {
+    header {
+        width: 65vw;
+    }
+    section {
+        width: 65vw;
+        margin: 15px auto;
+    }
+    .skills-grid {
+        grid-template-columns: 33.33% 33.33% 33.33%;
+    }
+}
+
+@media only screen and (max-width: 1048px) {
+    header {
+        width: 75vw;
+    }
+    section {
+        width: 75vw;
+        margin: 15px auto;
+    }
+    .skills-grid {
+        grid-template-columns: 33.33% 33.33% 33.33%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        width: 100%;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    nav ul {
+        right: 0;
+        z-index: 2;
+        flex-direction: column;
+        margin-top: 20px;
+        /* position: absolute; */
+    }
+    nav ul li {
+        /* display: block; */
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: auto;
+    }
+    .menu-icon {
+        display: block;
+        margin-left: auto;
+    }
+    .nav-menu {
+        display: none;
+    }
+    #hidden {
+        max-height: 190px;
+        overflow: hidden;
+        transition: 0.3s;
+    }
+    section {
+        width: 90vw;
+        margin: 15px auto;
+    }
+    #dp {
+        height: 150px;
+    }
+    .landing {
+        flex-direction: column-reverse;
+    }
+    .landing div:nth-child(1) {
+        width: 100%;
+    }
+    .landing div:nth-child(2) {
+        width: 100%;
+        padding-right: 0px;
+        margin-bottom: 35px;
+    }
+    .skills-grid {
+        grid-template-columns: 50% 50%;
+    }
+    .scrollButton {
+        left: 80%;
+    }
+}
