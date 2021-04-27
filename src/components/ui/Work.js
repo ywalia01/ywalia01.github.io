@@ -9,7 +9,8 @@ const Work = () => {
                 {WORK.map(project => (
                     <div>
                         <h2>{project.title}</h2>
-                        <p>{project.description}</p>
+                        <p id="desc1">{project.description}</p>
+                        <p id="desc2">{project.description2}</p>
                         <div>
                             <a href={project.ghlink} rel="noopener noreferrer" target="_blank">
                                 <i className="fab fa-lg fa-github"></i>
