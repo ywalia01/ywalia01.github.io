@@ -25,6 +25,9 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
+/* ************************************************** */
+/* Header Styling */
+/* ************************************************** */
 header {
     position: sticky;
     background: transparent;
@@ -59,6 +62,9 @@ nav ul li a:hover {
 nav #hidden {
     display: flex;
 }
+/* ************************************************** */
+/* Sections Styling */
+/* ************************************************** */
 .container {
     display: flex;
     flex-direction: column;
@@ -68,6 +74,9 @@ section {
     padding: 10px 25px;
     margin: 30px auto;
 }
+/* ************************************************** */
+/* Landing Section Styling */
+/* ************************************************** */
 .landing {
     display: flex;
     flex-direction: row;
@@ -122,11 +131,14 @@ h1,
 .social-links li a:hover {
     color: var(--first-color);
 }
+/* ************************************************** */
+/* About Section Styling */
+/* ************************************************** */
 #about div {
     padding-top: 10px;
     padding-left: 4%;
 }
-p {
+#about p {
     margin-top: 20px;
     margin-bottom: 20px;
     color: var(--second-color);
@@ -151,6 +163,9 @@ p {
     color: var(--first-color);
     cursor: default;
 }
+/* ************************************************** */
+/* Work Section Styling */
+/* ************************************************** */
 .work-grid {
     margin-top: 30px;
     display: grid;
@@ -185,6 +200,9 @@ p {
     flex-direction: row;
     justify-content: left;
 }
+/* ************************************************** */
+/* Contact Section Styling */
+/* ************************************************** */
 #contact div {
     padding: 0 5% 0 5%;
 }
@@ -198,6 +216,9 @@ footer p {
     text-align: center;
     align-self: center;
 }
+/* ************************************************** */
+/* Scroll Button Styling */
+/* ************************************************** */
 .scrollButton {
     position: fixed;
     width: 100%;
@@ -209,6 +230,9 @@ footer p {
     cursor: pointer;
     color: var(--first-color);
 }
+/* ************************************************** */
+/* Media Queries */
+/* ************************************************** */
 @media only screen and (max-width: 1400px) {
     header {
         width: 65vw;
