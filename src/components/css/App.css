@@ -190,9 +190,11 @@ h1,
 }
 .work-grid div #desc1 {
     margin: 14px 0 7px 0;
+    color: var(--second-color);
 }
 .work-grid div #desc2 {
     margin: 7px 0 20px 0;
+    color: var(--second-color);
 }
 .work-grid > div > div {
     padding-left: 0;
@@ -221,10 +223,10 @@ footer p {
 /* ************************************************** */
 .scrollButton {
     position: fixed;
-    width: 100%;
+    min-width: 50px;
     left: 85%;
-    bottom: 60px;
-    height: 20px;
+    bottom: 40px;
+    min-height: 20px;
     font-size: 3rem;
     z-index: 1;
     cursor: pointer;
