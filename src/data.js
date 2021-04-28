@@ -31,60 +31,74 @@ export const SOCIAL_LINKS = [
 
 export const SKILLS = [
     {
-        'name': "Python",
-        'icon': "fab fa-lg fa-python",
+        "name": "Python",
+        "icon": "fab fa-lg fa-python",
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
     },
     {
-        'name': "Javascript",
-        'icon': "fab fa-lg fa-js-square",
+        "name": "Javascript",
+        "icon": "fab fa-lg fa-js-square",
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg",
     },
     {
-        'name': "C/C++",
-        'icon': "far fa-lg fa-file",
+        "name": "C/C++",
+        "icon": "far fa-lg fa-file",
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg",
     },
     {
-        'name': "Java",
-        'icon': "fab fa-lg fa-java",
+        "name": "Java",
+        "icon": "fab fa-lg fa-java",
+        "svg": "https://upload.wikimedia.org/wikipedia/de/e/e1/Java-Logo.svg",
     },
     {
-        'name': "Reactjs",
-        'icon': "fab fa-lg fa-react",
+        "name": "Reactjs",
+        "icon": "fab fa-lg fa-react",
+        "svg": "https://user-images.githubusercontent.com/48391286/116357523-2b0fbd80-a81a-11eb-9ce4-193dbdbd1a5f.png",
     },
     {
-        'name': "Typescript",
-        'icon': "fab fa-lg fa-react",
+        "name": "Typescript",
+        "icon": "fab fa-lg fa-react",
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
     },
     {
-        'name': "Flask",
-        'icon': "fab fa-lg fa-python",
+        "name": "Flask",
+        "icon": "fab fa-lg fa-python",
+        "svg": "https://symbols.getvecta.com/stencil_80/57_flask-icon.eaaa141ab4.svg"
     },
     {
-        'name': "Django",
-        'icon': "fab fa-lg fa-python",
+        "name": "Django",
+        "icon": "fab fa-lg fa-python",
+        "svg": "https://static.djangoproject.com/img/icon-touch.e4872c4da341.png",
     },
     {
-        'name': "Node",
-        'icon': "fab fa-lg fa-node-js",
+        "name": "Node",
+        "icon": "fab fa-lg fa-node-js",
+        "svg": "https://user-images.githubusercontent.com/48391286/116356021-5396b800-a818-11eb-92aa-3c5e57c7b4b6.png",
     },
     {
-        'name': "MongoDB",
-        'icon': "fas fa-lg fa-database",
+        "name": "MongoDB",
+        "icon": "fas fa-lg fa-database",
+        "svg": "https://user-images.githubusercontent.com/48391286/116356546-08c97000-a819-11eb-825a-92987c25d56e.png",
     },
     {
-        'name': "Git",
-        'icon': "fab fa-lg fa-git-square",
+        "name": "Git",
+        "icon": "fab fa-lg fa-git-square",
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg",
     },
     {
-        'name': "Docker",
-        'icon': "fab fa-lg fa-docker",
+        "name": "Docker",
+        "icon": "fab fa-lg fa-docker",
+        "svg": "https://user-images.githubusercontent.com/48391286/116356412-da4b9500-a818-11eb-81b5-fecbfa1b7ddd.png",
     },
     {
-        'name': "Bash",
-        'icon': "fas fa-lg fa-terminal",
+        "name": "Bash",
+        "icon": "fas fa-lg fa-terminal",
+        "svg": "https://user-images.githubusercontent.com/48391286/116356853-6eb5f780-a819-11eb-8246-56570ed0e95f.png",
     },
     {
-        'name': "Linux",
-        'icon': "fab fa-lg fa-linux",
+        "name": "Linux",
+        "icon": "fab fa-lg fa-linux",
+        "svg": "https://user-images.githubusercontent.com/48391286/116357092-b63c8380-a819-11eb-8975-30668aa7d647.png",
     },
 ]
 

@@ -55,3 +55,20 @@ h1,
 .social-links li a:hover {
     color: var(--first-color);
 }
+
+@media only screen and (max-width: 768px) {
+    #dp {
+        height: 150px;
+    }
+    .landing {
+        flex-direction: column-reverse;
+    }
+    .landing div:nth-child(1) {
+        width: 100%;
+    }
+    .landing div:nth-child(2) {
+        width: 100%;
+        padding-right: 0px;
+        margin-bottom: 35px;
+    }
+}

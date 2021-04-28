@@ -21,3 +21,22 @@
     color: var(--first-color);
     cursor: default;
 }
+.skills-grid div img {
+    height: 25px;
+}
+
+@media only screen and (max-width: 1400px) {
+    .skills-grid {
+        grid-template-columns: 33.33% 33.33% 33.33%;
+    }
+}
+@media only screen and (max-width: 1048px) {
+    .skills-grid {
+        grid-template-columns: 33.33% 33.33% 33.33%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .skills-grid {
+        grid-template-columns: 50% 50%;
+    }
+}

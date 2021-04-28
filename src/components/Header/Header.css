@@ -35,3 +35,48 @@ nav ul li a:hover {
 nav #hidden {
     display: flex;
 }
+
+@media only screen and (max-width: 1400px) {
+    header {
+        width: 65vw;
+    }
+}
+@media only screen and (max-width: 1048px) {
+    header {
+        width: 75vw;
+    }
+}
+@media only screen and (max-width: 768px) {
+    header {
+        width: 100%;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    nav ul {
+        right: 0;
+        z-index: 2;
+        flex-direction: column;
+        margin-top: 20px;
+        /* position: absolute; */
+    }
+    nav ul li {
+        /* display: block; */
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: auto;
+    }
+    .menu-icon {
+        display: block;
+        margin-left: auto;
+    }
+    .nav-menu {
+        display: none;
+    }
+    #hidden {
+        max-height: 190px;
+        overflow: hidden;
+        transition: 0.3s;
+    }
+}
