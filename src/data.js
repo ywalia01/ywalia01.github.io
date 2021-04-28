@@ -131,59 +131,65 @@ export const WORK = [
     },
     {
         "title": "Dune API",
-        "description": "A simple API which provides you with book, character, movie and quotes JSON data.",
+        "description": "A simple API which provides you with book, character, movie and quotes JSON data",
         "description2": "Nodejs, Expressjs",
         "ghlink": "https://github.com/ywalia01/dune-api",
         "extlink": "https://the-dune-api.herokuapp.com/quotes/1"
     },
     {
+        "title": "random-dune-quotes",
+        "description": "A simple NPM package that serves random quotes from the Dune franchise",
+        "description2": "Nodejs, Expressjs",
+        "ghlink": "",
+        "extlink": "https://www.npmjs.com/package/random-dune-quotes"
+    },
+    {
         "title": "Developer Portfolio",
-        "description": "A clean, minimal responsive portfolio for developers.",
+        "description": "A clean, minimal responsive portfolio for developers",
         "description2": "Reactjs",
         "ghlink": "https://github.com/ywalia01/ywalia01.github.io",
         "extlink": "https://ywalia01.netlify.app/"
     },
     {
         "title": "Artist Portfolio",
-        "description": "A responsive grid portfolio template for artists.",
-        "description2": "Reactjs",
+        "description": "A responsive grid portfolio template for artists",
+        "description2": "Reactjs, Nodejs, Expressjs, MongoDB",
         "ghlink": "https://github.com/ywalia01/artist-portfolio",
         "extlink": "https://artist-pfolio.netlify.app/"
     },
     {
         "title": "Jchain",
-        "description": "A simple blockchain simulation GUI application.",
+        "description": "A simple blockchain simulation GUI application",
         "description2": "Java, Swing",
         "ghlink": "https://github.com/ywalia01/jchain",
         "extlink": "https://github.com/ywalia01/jchain"
     },
     {
         "title": "iHeard",
-        "description": "A web app designed for the hard of hearing. ",
+        "description": "A web app designed for the hard of hearing",
         "description2": "Machine Learning, Speech to text, Google Cloud API",
         "ghlink": "https://github.com/ywalia01/iheard",
         "extlink": "https://iheard.tech/"
     },
     {
         "title": "Yelpcamp",
-        "description": "An implementation of the popular crowd-sourced review service provider - Yelp. It has basic CRUD Functionality.",
+        "description": "An implementation of the popular crowd-sourced review service provider - Yelp. It has basic CRUD Functionality",
         "description2": "Nodejs, Expressjs, MongoDB",
         "ghlink": "https://github.com/ywalia01/yelpcampv9",
         "extlink": "https://github.com/ywalia01/yelpcampv9"
     },
     {
         "title": "CountDune",
-        "description": "A simple countdown timer for Dune 2021.",
+        "description": "A simple countdown timer for Dune 2021",
         "description2": "Vanilla Javascript",
         "ghlink": "https://github.com/ywalia01/countdune",
         "extlink": "https://ywalia01.github.io/countdune/"
     },
     {
         "title": "Yodish Converter",
-        "description": "A simple API interface for English to Yodish conversion.",
+        "description": "A simple API interface for English to Yodish conversion",
         "description2": "Vanilla Javascript",
         "ghlink": "https://github.com/ywalia01/yodish",
         "extlink": "https://ywalia01.github.io/yodish/"
-    },
-    
+    }
 ]
