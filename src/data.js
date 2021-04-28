@@ -48,7 +48,7 @@ export const SKILLS = [
     {
         "name": "Java",
         "icon": "fab fa-lg fa-java",
-        "svg": "https://upload.wikimedia.org/wikipedia/de/e/e1/Java-Logo.svg",
+        "svg": "https://user-images.githubusercontent.com/48391286/116383957-ffe69780-a834-11eb-83dc-5e0c979d2b36.png",
     },
     {
         "name": "Reactjs",
@@ -63,7 +63,7 @@ export const SKILLS = [
     {
         "name": "Flask",
         "icon": "fab fa-lg fa-python",
-        "svg": "https://symbols.getvecta.com/stencil_80/57_flask-icon.eaaa141ab4.svg"
+        "svg": "https://user-images.githubusercontent.com/48391286/116382927-045e8080-a834-11eb-95bd-f2dacbd6b0f8.png"
     },
     {
         "name": "Django",
@@ -88,7 +88,7 @@ export const SKILLS = [
     {
         "name": "Docker",
         "icon": "fab fa-lg fa-docker",
-        "svg": "https://user-images.githubusercontent.com/48391286/116356412-da4b9500-a818-11eb-81b5-fecbfa1b7ddd.png",
+        "svg": "https://user-images.githubusercontent.com/48391286/116383567-96ff1f80-a834-11eb-8a9a-b843d3817486.png",
     },
     {
         "name": "Bash",
