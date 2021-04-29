@@ -1,6 +1,6 @@
 export const FULL_NAME = 'Yash Walia'
 export const RESUME_LINK = 'https://drive.google.com/file/d/1DjRJCnkOuMAP7Edoggn3gYkMhac-7wZ-/view?usp=sharing'
-
+export const FOOTER_TEXT = "Built by Yash Walia";
 export const SOCIAL_LINKS = [
     {
         "name": "Email",

@@ -1,6 +1,6 @@
 import React from "react";
 import './Skills.css';
-import { SKILLS } from '../../data';
+import { SKILLS } from '../../Util/data';
 
 const Skills = () => {
     return (

@@ -1,6 +1,6 @@
 import React from "react";
 import './Contact.css';
-import { SOCIAL_LINKS} from '../../data';
+import { SOCIAL_LINKS} from '../../Util/data';
 
 const Contact = () => {
     return (

@@ -2,7 +2,7 @@ import React from "react";
 import './Landing.css';
 import focus from '../../img/focus.png'
 import Typed from 'react-typed';
-import { SOCIAL_LINKS, RESUME_LINK, FULL_NAME } from '../../data';
+import { SOCIAL_LINKS, RESUME_LINK, FULL_NAME } from '../../Util/data';
 
 const Landing = () => {
     return (

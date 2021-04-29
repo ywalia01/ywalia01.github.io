@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './Toggle.css';
-import { setTheme } from '../../themes';
+import { setTheme } from '../../Util/themes';
 
 function Toggle() {
     // eslint-disable-next-line

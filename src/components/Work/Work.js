@@ -1,6 +1,6 @@
 import React from "react";
 import './Work.css';
-import { WORK } from '../../data';
+import { WORK } from '../../Util/data';
 
 const Work = () => {
     return (
