@@ -1,6 +1,14 @@
-:root {
+.theme-dark {
     --first-color: #44f1a6;
     --second-color: #ffffff;
+    --third-color: #000000;
+    --gradient-col: #181818;
+}
+.theme-light {
+    --first-color: #44f1a6;
+    --second-color: #000000;
+    --third-color: #ffffff;
+    --gradient-col: #ffffff;
 }
 * {
     margin: 0;
@@ -10,7 +18,7 @@
 body {
     font-family: "PT Mono", monospace;
     color: var(--first-color);
-    background: #000000;
+    background: var(--third-color);
     scroll-behavior: smooth;
 }
 .wrapper {
@@ -19,7 +27,7 @@ body {
     padding-left: 4%;
     padding-right: 4%;
     overflow: hidden;
-    background: linear-gradient(180deg, #181818, #000) fixed;
+    background: linear-gradient(180deg, var(--gradient-col), var(--third-color)) fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
