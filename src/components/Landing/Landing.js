@@ -1,6 +1,6 @@
 import React from "react";
 import './Landing.css';
-import illustration from "../../img/ill.png"
+import focus from '../../img/focus.png'
 import Typed from 'react-typed';
 import { SOCIAL_LINKS, RESUME_LINK, FULL_NAME } from '../../data';
 
@@ -39,7 +39,7 @@ const Landing = () => {
                 <h4><a id="resume" href={RESUME_LINK} rel="noopener noreferrer" target="blank">Resume</a></h4>
             </div>
             <div>
-                <img id="dp" src={illustration} alt="illustration"/>
+                <img id="dp" src={focus} alt="illustration"/>
             </div>
         </section>
     );
