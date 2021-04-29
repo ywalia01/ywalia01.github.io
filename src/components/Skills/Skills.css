@@ -4,7 +4,7 @@
 .skills-grid {
     margin-top: 30px;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 33.33% 33.33% 33.33%;
     padding-left: 4%;
 }
 .skills-grid div {
@@ -24,16 +24,8 @@
 .skills-grid div img {
     height: 25px;
 }
-
-@media only screen and (max-width: 1400px) {
-    .skills-grid {
-        grid-template-columns: 33.33% 33.33% 33.33%;
-    }
-}
-@media only screen and (max-width: 1048px) {
-    .skills-grid {
-        grid-template-columns: 33.33% 33.33% 33.33%;
-    }
+.skills-grid div .img-container {
+    width: 35px;
 }
 @media only screen and (max-width: 768px) {
     .skills-grid {

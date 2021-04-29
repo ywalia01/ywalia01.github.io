@@ -9,7 +9,9 @@ const Skills = () => {
             <div className="skills-grid">
                 {SKILLS.map(skill => (
                     <div>
-                        <img src={skill.svg} alt={skill.name}></img>
+                        <div className="img-container">
+                            <img src={skill.svg} alt={skill.name}></img>
+                        </div>
                         {/* <i className={skill.icon}></i> */}
                         <h4>{skill.name}</h4>
                     </div>
