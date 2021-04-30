@@ -26,6 +26,7 @@
 }
 .skills-grid div .img-container {
     width: 35px;
+    font-size: 28px;
 }
 @media only screen and (max-width: 768px) {
     .skills-grid {

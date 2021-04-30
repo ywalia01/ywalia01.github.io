@@ -32,72 +32,58 @@ export const SOCIAL_LINKS = [
 export const SKILLS = [
     {
         "name": "Python",
-        "icon": "fab fa-lg fa-python",
-        "svg": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
+        "icon": "devicon-python-plain colored",
     },
     {
         "name": "Javascript",
-        "icon": "fab fa-lg fa-js-square",
-        "svg": "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg",
+        "icon": "devicon-javascript-plain colored",
     },
     {
         "name": "C/C++",
-        "icon": "far fa-lg fa-file",
-        "svg": "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg",
+        "icon": "devicon-c-plain colored",
     },
     {
         "name": "Java",
-        "icon": "fab fa-lg fa-java",
-        "svg": "https://user-images.githubusercontent.com/48391286/116383957-ffe69780-a834-11eb-83dc-5e0c979d2b36.png",
+        "icon": "devicon-java-plain colored",
     },
     {
         "name": "Reactjs",
-        "icon": "fab fa-lg fa-react",
-        "svg": "https://user-images.githubusercontent.com/48391286/116357523-2b0fbd80-a81a-11eb-9ce4-193dbdbd1a5f.png",
+        "icon": "devicon-react-original colored",
     },
     {
         "name": "Typescript",
-        "icon": "fab fa-lg fa-react",
-        "svg": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
+        "icon": "devicon-typescript-plain colored",
     },
     {
         "name": "Flask",
-        "icon": "fab fa-lg fa-python",
-        "svg": "https://user-images.githubusercontent.com/48391286/116382927-045e8080-a834-11eb-95bd-f2dacbd6b0f8.png"
+        "svg": "https://user-images.githubusercontent.com/48391286/116659996-08171200-a9b0-11eb-8f15-a90621fb9a6d.png"
     },
     {
         "name": "Django",
-        "icon": "fab fa-lg fa-python",
         "svg": "https://static.djangoproject.com/img/icon-touch.e4872c4da341.png",
     },
     {
         "name": "Node",
-        "icon": "fab fa-lg fa-node-js",
-        "svg": "https://user-images.githubusercontent.com/48391286/116356021-5396b800-a818-11eb-92aa-3c5e57c7b4b6.png",
+        "icon": "devicon-nodejs-plain colored",
     },
     {
         "name": "MongoDB",
-        "icon": "fas fa-lg fa-database",
-        "svg": "https://user-images.githubusercontent.com/48391286/116356546-08c97000-a819-11eb-825a-92987c25d56e.png",
+        "icon": "devicon-mongodb-plain colored",
     },
     {
         "name": "Git",
-        "icon": "fab fa-lg fa-git-square",
-        "svg": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg",
+        "icon": "devicon-git-plain colored",
     },
     {
         "name": "Docker",
-        "icon": "fab fa-lg fa-docker",
-        "svg": "https://user-images.githubusercontent.com/48391286/116383567-96ff1f80-a834-11eb-8a9a-b843d3817486.png",
+        "icon": "devicon-docker-plain colored",
     },
     {
         "name": "Bash",
-        "icon": "fas fa-lg fa-terminal",
-        "svg": "https://user-images.githubusercontent.com/48391286/116356853-6eb5f780-a819-11eb-8246-56570ed0e95f.png",
+        "icon": "devicon-bash-plain colored",
     },
     {
         "name": "Linux",
-        "icon": "fab fa-lg fa-linux",
         "svg": "https://user-images.githubusercontent.com/48391286/116357092-b63c8380-a819-11eb-8975-30668aa7d647.png",
     },
 ]

@@ -10,9 +10,9 @@ const Skills = () => {
                 {SKILLS.map(skill => (
                     <div>
                         <div className="img-container">
-                            <img src={skill.svg} alt={skill.name}></img>
+                            <img src={skill.svg} alt=""></img>
+                            <i className={skill.icon}></i>
                         </div>
-                        {/* <i className={skill.icon}></i> */}
                         <h4>{skill.name}</h4>
                     </div>
                 ))}
