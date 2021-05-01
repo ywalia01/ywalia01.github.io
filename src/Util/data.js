@@ -56,7 +56,6 @@ export const SKILLS = [
     },
     {
         "name": "Flask",
-        "icon": "",
         "svg": "https://user-images.githubusercontent.com/48391286/116382927-045e8080-a834-11eb-95bd-f2dacbd6b0f8.png",
     },
     {

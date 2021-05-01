@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Toggle.css';
 import { setTheme } from '../../Util/themes';
+import { SunIcon} from '@primer/octicons-react';
 
 function Toggle() {
     // eslint-disable-next-line
@@ -35,7 +36,7 @@ function Toggle() {
                 <span className="slider"></span>
             </label>
             <div id="sun">
-                <i class="fas fa-sun"></i>
+                <SunIcon size={19} />
             </div>
         </div>
     )
