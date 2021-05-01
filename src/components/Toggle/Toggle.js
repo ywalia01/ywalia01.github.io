@@ -27,10 +27,16 @@ function Toggle() {
 
     return (
         <div className="toggle-container">
+            <div id="moon">
+                <i class="far fa-moon"></i>
+            </div>
             <label className="switch">
                 <input type="checkbox" hidden id="toggle" className="toggle--checkbox" onClick={handleOnClick}/>
                 <span className="slider"></span>
             </label>
+            <div id="sun">
+                <i class="fas fa-sun"></i>
+            </div>
         </div>
     )
 }

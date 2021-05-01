@@ -56,7 +56,8 @@ export const SKILLS = [
     },
     {
         "name": "Flask",
-        "svg": "https://user-images.githubusercontent.com/48391286/116659996-08171200-a9b0-11eb-8f15-a90621fb9a6d.png"
+        "icon": "",
+        "svg": "https://user-images.githubusercontent.com/48391286/116382927-045e8080-a834-11eb-95bd-f2dacbd6b0f8.png",
     },
     {
         "name": "Django",

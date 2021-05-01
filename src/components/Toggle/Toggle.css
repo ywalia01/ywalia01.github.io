@@ -1,52 +1,60 @@
-.toggle-container{
-  position:absolute;
-  min-width: 60px;
-  left: 90%;
-  top: 46px;
-  min-height: 20px;
-  z-index: 1;
-  cursor: pointer;
+.toggle-container {
+    position: absolute;
+    width: 90px;
+    left: 90%;
+    top: 47px;
+    min-height: 20px;
+    z-index: 1;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#moon,
+#sun {
+    color: var(--second-color);
 }
 .switch {
-  display: flex;
-  padding: 5px;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
 .switch input:checked ~ .slider {
-  background-color: var(--first-color);
+    background-color: var(--first-color);
 }
 .switch input:checked ~ .slider::before {
-  transform: translateX(20px);
+    transform: translateX(20px);
 }
 .switch .slider {
-  width: 30px;
-  height: 15px;
-  display: flex;
-  border-radius: 100px;
-  background-color: #777;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-  transition: all ease-in-out 300ms;
+    width: 30px;
+    height: 15px;
+    display: flex;
+    border-radius: 100px;
+    background-color: #777;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out 300ms;
 }
 .switch .slider::before {
-  content: "";
-  font-family: Arial, Helvetica, sans-serif;
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: #fff;
-  border: 1px solid #777;
-  left: -5px;
-  transition: all cubic-bezier(0.6, 0, 0.4, 1) 300ms;
+    content: "";
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #777;
+    left: -5px;
+    transition: all cubic-bezier(0.6, 0, 0.4, 1) 300ms;
 }
 
 @media only screen and (max-width: 768px) {
-  .toggle-container{
-    left: 3%;
-    top: 24px;
-  }
+    .toggle-container {
+        left: 5%;
+        top: 27px;
+    }
 }
