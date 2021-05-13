@@ -18,6 +18,11 @@ export const SOCIAL_LINKS = [
         "link": "https://www.linkedin.com/in/yash-walia"
     },
     {
+        "name": "Discord",
+        "icon": "fab fa-lg fa-discord",
+        "link": "https://discord.com/users/623151272069169174"
+    },
+    {
         "name": "Twitter",
         "icon": "fab fa-lg fa-twitter",
         "link": "https://twitter.com/ywalia01"
