@@ -1,5 +1,5 @@
 export const FULL_NAME = "Yash Walia";
-export const RESUME_LINK = "https://ywalia01.github.io/my-resume/resume.pdf";
+export const RESUME_LINK = "https://ywalia01.github.io/resume/resume.pdf";
 export const FOOTER_TEXT = "Built by Yash Walia";
 export const SOCIAL_LINKS = [
     {
