@@ -96,7 +96,7 @@ export const SKILLS = [
 export const ABOUT = [
     {
         index: "1",
-        text: "I'm a 19 year-old student currently pursuing a bachelor's degree in Computer Science Engineering.",
+        text: "I'm a 20 year-old student currently pursuing a Bachelor's degree in Computer Science Engineering.",
     },
     {
         index: "2",
