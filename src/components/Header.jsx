@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { FaSpotify } from "react-icons/fa";
+// import yashImage from "../utils/yash.png";
 
 const TOKEN_ENDPOINT = "https://accounts.spotify.com/api/token";
 const NOW_PLAYING_ENDPOINT =
@@ -80,6 +81,7 @@ const Header = () => {
   return (
     <header className="flex flex-row justify-between align-items-center min-w-full max-h-8 mt-8">
       <div className="flex flex-row justify-between align-items-center space-x-4">
+        {/* <img src={yashImage} alt="Yash" className="h-8" /> */}
         <a href="/" className="text-black hover:underline">
           home
         </a>
@@ -90,7 +92,7 @@ const Header = () => {
           writing
         </a>
       </div>
-      <div className="flex flex-row justify-between align-items-center items-center">
+      <div className="flex flex-col md:flex-row justify-between align-items-center items-center">
         <div
           className="flex items-center border border-black text-black px-2 py-0 rounded-full cursor-pointer"
           onClick={handleTrackClick}

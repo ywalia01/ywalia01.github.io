@@ -9,7 +9,7 @@ import Work from "./pages/Work.jsx";
 function App() {
   return (
     <BrowserRouter>
-      <div className="flex flex-col min-h-screen">
+      <div className="flex flex-col min-h-screen bgGrid max-w-[768px] w-[768px] px-8 sm:px-8 md:px-0 ">
         <Header />
         <main className="flex-grow">
           <Routes>
