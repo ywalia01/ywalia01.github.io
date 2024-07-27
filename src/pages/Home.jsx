@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import yashImage from "../utils/images/yash3.png";
+import yashImage from "../utils/images/yash3_red.png";
 const RESUME_LINK = "https://ywalia01.github.io/resume/";
 
 function Home() {
