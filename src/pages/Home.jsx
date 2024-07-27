@@ -11,7 +11,7 @@ function Home() {
           {/* <h1 className="text-2xl underline underline-offset-8">yash walia</h1> */}
           <img src={yashImage} alt="Yash" className="h-12" />
         </div>
-        <div className="flex flex-col text-left mt-2">
+        <div className="flex flex-col text-left mt-4">
           <p>
             i'm a 22 year old student currently pursuing a masters degree in
             computer science engineering. i mostly work across the stack and
@@ -19,9 +19,9 @@ function Home() {
             component libraries. i'm also passionate about communities and
             open-source.
           </p>
-          <p>
-            and if you couldn't already tell by the background and font, i'm a
-            huge pink floyd fan
+          <p className="mt-2">
+            and if the background and font didn't give it away, I'm a huge pink
+            floyd fan
           </p>
           <p className="mt-2">
             You can find my resume{" "}

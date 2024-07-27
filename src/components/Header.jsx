@@ -88,7 +88,10 @@ const Header = () => {
         <a href="/work" className="text-black hover:underline">
           work
         </a>
-        <a href="/writing" className="text-black hover:underline">
+        <a
+          href="https://yashwalia.hashnode.dev/"
+          className="text-black hover:underline"
+        >
           writing
         </a>
       </div>

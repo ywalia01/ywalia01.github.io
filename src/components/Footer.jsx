@@ -9,10 +9,10 @@ function Footer() {
           {"github"}
         </a>
         <p className="mt-2 mx-2">{" / "}</p>
-        <a href="/" className="text-sm mt-2 hover:underline">
+        <a href="/" className="mt-2 hover:underline">
           {"twitter"}
         </a>
-        <p className="text-sm mt-2 mx-2">{" / "}</p>
+        <p className="mt-2 mx-2">{" / "}</p>
         <a href="/" className="mt-2 hover:underline">
           {"linkedin"}
         </a>
